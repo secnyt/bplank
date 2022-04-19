@@ -1,0 +1,103 @@
+.navbar {
+  /* FLEX */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  /* COLORS */
+  background: #d8cede;
+
+  /* TEXT */
+  font-size: 16px;
+  
+  /* SIZE */
+  width: 100%;
+  padding: 0.5em 2em 0.5em 2em;
+  
+}
+
+
+
+/*
+ * =====================
+ * LEFT ALIGN <---------
+ * =====================
+ *
+ */
+
+.navleftalign {
+  /* FLEX */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 0.75em;
+  
+}
+
+.mainlogotext {
+  /* FLEX */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  /* TEXT */
+  font-size: 22px;
+  
+}
+
+.mainlogo {
+  /* FLEX */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+
+
+/*
+ * =====================
+ * --------> RIGHT ALIGN
+ * =====================
+ *
+ */
+
+.navrightalign {
+  /* FLEX */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2em;
+  
+  /* SIZE */
+  width: auto;
+  
+}
+
+.navsignincontainer {
+  /* FLEX */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  
+}
+
+.navgetstartedbutton {
+  /* COLOR */
+  background-color: var(--color-cta);
+
+  /* TEXT */
+  font-size: 18px;
+  
+  /* SIZE */
+  padding: 0.75em 0.5em 0.75em 0.5em;
+  border-radius: 6px;
+  
+}
