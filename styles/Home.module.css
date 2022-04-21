@@ -1,0 +1,19 @@
+.main {
+  font-size: 18px;
+  margin: 3em 5em;
+
+}
+
+.homebigtext {
+  font-size: 75px;
+  line-height: 85px;
+  font-weight: bold;
+}
+
+.getit {
+  margin-left: 0.5em;
+}
+
+.small {
+  font-size: 12px;
+}

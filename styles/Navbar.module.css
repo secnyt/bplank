@@ -11,7 +11,9 @@
   /* TEXT */
   font-size: 16px;
   
-  /* SIZE */
+  /* SIZE & POSITION */
+  position: sticky;
+  top: 0;
   width: 100%;
   padding: 0.5em 2em 0.5em 2em;
   
@@ -44,7 +46,7 @@
   align-items: center;
 
   /* TEXT */
-  font-size: 22px;
+  font-size: 26px;
   
 }
 
