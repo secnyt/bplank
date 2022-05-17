@@ -1,0 +1,33 @@
+.footer {
+  /* FLEX */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+  /* TEXT */
+  font-size: 16px;
+  
+  /* COLOR */
+  background-color: var(--color-light-purple);
+
+  /* SIZE */
+  height: 6em;
+  margin: 0;
+}
+
+.footerlink {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.githublogo {
+  height: 2em;
+}
+
+.vercellogo {
+  height: 1.5em;
+}

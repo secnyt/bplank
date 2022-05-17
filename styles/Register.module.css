@@ -1,0 +1,18 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+.card {
+  flex: 1 0 auto;
+  margin: 3em 0;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+

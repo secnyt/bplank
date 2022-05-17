@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import NavBar from '../src/components/navbar/navbar'
+import Footer from '../src/components/footer/footer'
 import DummyText from '../src/components/dummytext'
 
 import styles from '../styles/Home.module.css'
@@ -13,7 +14,7 @@ export default function Home() {
       <Head>
         <title>bplank</title>
         <meta name="desc" content="bplank homepage" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
@@ -39,7 +40,7 @@ export default function Home() {
           </p>
           <DummyText />
         </div>
-        
+        <Footer />
       </main>
     </div>
   )

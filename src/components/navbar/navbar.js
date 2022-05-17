@@ -16,10 +16,10 @@ export default class NavBar extends React.Component {
       <div className={navStyles.navbar}>
         
         <div className={navStyles.navleftalign}>    
-          
           <Logo className={navStyles.mainlogo} dimensions={80}/>
-          <span className={navStyles.mainlogotext}>BPLANK</span>
-          
+          <Link href="/">
+            <a className={navStyles.mainlogotext}>BPLANK</a>
+          </Link>
         </div>
 
         <div className={navStyles.navrightalign}>
@@ -29,9 +29,9 @@ export default class NavBar extends React.Component {
           </div>
           
           <div className={navStyles.navsignincontainer}>
-            <Link href="/sign-in"><a className={navStyles.navsigninbutton}>Sign In</a></Link>
+            <Link href="/signin"><a className={navStyles.navsigninbutton}>Sign In</a></Link>
             <div className={ navStyles.navgetstarted }>
-              <Link href="/sign-up"><a className={ navStyles.navgetstartedbutton }>Get Started</a></Link>
+              <Link href="/register"><a className="ctabutton">Get Started</a></Link>
             </div>
           </div>
           

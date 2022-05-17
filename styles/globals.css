@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
 
 
+html {
+  height: 100%;
+}
+
 html,
 body {
   padding: 0;
@@ -16,5 +20,30 @@ a {
 * {
   box-sizing: border-box;
 
+  --color-light-purple: #f3e3ff;
   --color-cta: #a893b8;
+  --color-cta-hover: #b8a3c8;
+}
+
+.ctabutton {
+  
+  /* COLOR */
+  background-color: var(--color-cta);
+
+  /* TEXT */
+  font-size: 18px;
+  
+  /* SIZE */
+  padding: 0.75em 0.5em;
+  border-radius: 6px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.ctabutton:hover {
+  /* COLOR */
+  background-color: var(--color-cta-hover);
+
+  /* SIZE */
+  border-radius: 3px;
 }
