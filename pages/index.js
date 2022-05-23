@@ -8,6 +8,8 @@ import DummyText from '../src/components/dummytext'
 
 import styles from '../styles/Home.module.css'
 
+import { useUser } from '@auth0/nextjs-auth0'
+
 export default function Home() {
   return (
     <div>
